@@ -1,0 +1,39 @@
+.background {
+  background: url("../../../../public/coaching-plans-bg.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 12vw;
+}
+
+.monthlyBg {
+  background: url("../../../../public/monthly.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+.months3Bg {
+  background: url("../../../../public/3-months.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+.months6Bg {
+  background: url("../../../../public/6-months.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+.annualBg {
+  background: url("../../../../public/annual.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}

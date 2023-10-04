@@ -7,7 +7,7 @@ export function HeroBanner() {
   return (
     <article className={styles.banner}>
       <div className="grid grid-cols-1 lg:grid-cols-5 px-xxxl w-full h-full text-[0.6em] md:text-[1em]">
-        <h1 className="lg:col-span-3 place-self-center font-headlineFont text-h5 text-center leading-[101.9%]">
+        <h1 className="lg:col-span-3 place-self-center font-Organetto text-h5 text-center leading-[101.9%]">
           <div className={styles.gradientText}>
             <span className="lg:whitespace-nowrap">
               it is not just{" "}

@@ -30,11 +30,11 @@ module.exports = {
         h6: "1.25em",
       },
       fontFamily: {
-        headlineFont: "Organetto",
-        secondaryHeadlineFont: "Mortend",
-        tertiaryHeadlineFont: "Oswald",
-        mainFont: "Articulat",
-        auxiliarFont: "Poppins",
+        Organetto: "Organetto",
+        Mortend: "Mortend",
+        Oswald: "Oswald",
+        Articulat: "Articulat",
+        Poppins: "Poppins",
       },
       screens: {
         "2xs": "470px",

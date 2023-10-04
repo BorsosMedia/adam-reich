@@ -1,9 +1,11 @@
 "use client";
 
+import styles from "./OneTimePlans.module.css";
+
 export function OneTimePlans() {
   return (
-    <section>
-      <h2>ONE-TIME PLANS</h2>
-    </section>
+    <article id="one-time-plans">
+      <h2 className={`${styles.background} text-white`}>One-Time Plans</h2>
+    </article>
   );
 }

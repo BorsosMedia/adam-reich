@@ -27,15 +27,21 @@ export function Footer() {
         <section className="flex flex-col justify-stretch items-center md:items-start gap-5 md:col-span-5 justify-self-center self-end md:justify-self-start md:self-stretch">
           <div className={contactInfo}>
             <Image src={phone} alt="phone icon" className={infoIcon} />
-            <p>(561) 221-4840</p>
+            <a href="tel:+15612214840" target="_blank">
+              (561) 221-4840
+            </a>
           </div>
           <div className={contactInfo}>
             <Image src={mail} alt="email icon" className={infoIcon} />
-            <p>info@reinventugym.com</p>
+            <a href="mailto:info@reinventugym.com" target="_blank">
+              info@reinventugym.com
+            </a>
           </div>
           <div className={contactInfo}>
             <Image src={location} alt="location icon" className={infoIcon} />
-            <p>170 NW 20th StBoca Raton, FL 33431</p>
+            <a href="https://maps.app.goo.gl/6fkzL9TqaV7PPewP9" target="_blank">
+              170 NW 20th StBoca Raton, FL 33431
+            </a>
           </div>
           <div className="flex flex-row gap-10 mt-5 md:mt-10">
             <a href="https://www.tiktok.com/@adamreich_" target="_blank">
