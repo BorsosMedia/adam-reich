@@ -20,7 +20,7 @@ export function Consultation() {
           best version of yourself
         </span>
       </p>
-      <button className="bg-blue rounded-3xl font-bold px-4 py-1">
+      <button className="bg-blue rounded-3xl font-bold px-4 py-1 hover:scale-110 transition-all ease-in-out duration-300">
         <a href="#">Go To The Calendar</a>
       </button>
     </article>

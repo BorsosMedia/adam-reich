@@ -8,6 +8,7 @@ import { AboutMe } from "./components/AboutMe/AboutMe";
 import { ClientsReviews } from "./components/ClientsReviews/ClientsReviews";
 import { DiscordSection } from "./components/DiscordSection/DiscordSection";
 import { Consultation } from "./components/Consultation/Consultation";
+import { InquirySection } from "./components/InquirySection/InquirySection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <HeroBanner />
       <CoachingPlans />
       <OneTimePlans />
+      <InquirySection />
       <Consultation />
       <AboutMe />
       <ClientsReviews />

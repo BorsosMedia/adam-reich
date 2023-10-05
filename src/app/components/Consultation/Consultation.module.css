@@ -10,16 +10,6 @@
 }
 
 /* BIGGER-THAN-MOBILE BACKGROUND */
-/* @media only screen and (min-width: 620px) {
-  .background {
-    background: url("../../../../public/consultation.svg");
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    width: 100vw;
-    min-height: fit-content;
-  }
-} */
-
 @media only screen and (min-width: 900px) {
   .background {
     background: url("../../../../public/consultation.svg");
