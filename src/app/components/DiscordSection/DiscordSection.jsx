@@ -10,15 +10,15 @@ import { GradientButton } from "../GradientButton/GradientButton";
 export function DiscordSection() {
   return (
     <article
-      className={`${styles.background} text-white flex flex-col items-center justify-center`}
+      className={`${styles.background} bg-black text-white flex flex-col items-center justify-center py-32`}
     >
-      <section className="md:hidden flex flex-col items-center justify-center">
+      <section className="md:hidden flex flex-col items-center justify-center text-[0.8em]">
         <Image
           src={discordLogo}
           alt="Discord Logo"
-          className="h-auto w-[8rem]"
+          className="h-auto w-[6rem]"
         />
-        <h2 className="font-Organetto text-h5 my-5">
+        <h2 className="font-Organetto my-5">
           Join my <span className="text-blue">discord server</span>
         </h2>
       </section>
@@ -26,7 +26,7 @@ export function DiscordSection() {
         <Image
           src={discordAdam}
           alt="Adam's Picture"
-          className="col-start-2 col-span-2 place-content-center hidden md:block"
+          className="col-start-2 col-span-2 place-content-center"
         />
         <section className="col-span-2 place-content-center">
           <div className="hidden md:block">
@@ -54,10 +54,10 @@ export function DiscordSection() {
             <GradientButton content="Join Now" />
           </div>
         </section>
-        <div className="md:hidden">
-          <GradientButton content="Join Now" />
-        </div>
       </section>
+      <div className="md:hidden">
+        <GradientButton content="Join Now" />
+      </div>
     </article>
   );
 }

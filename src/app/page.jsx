@@ -1,6 +1,5 @@
 "use client";
 
-import styles from "./page.module.css";
 import { InstagramWidget } from "./components/InstagramWidget/InstagramWidget";
 import { HeroBanner } from "./components/HeroBanner/HeroBanner";
 import { CoachingPlans } from "./components/CoachingPlans/CoachingPlans";
@@ -21,7 +20,7 @@ export default function Home() {
       <ClientsReviews />
       <DiscordSection />
       <article className="px-[10vw] py-[5vh]">
-        {/* <InstagramWidget /> */}
+        <InstagramWidget />
       </article>
     </main>
   );

@@ -2,15 +2,25 @@
 @media only screen and (max-width: 600px) {
   .background {
     background: url("../../../../public/discord-mobile-bg.svg");
-    background-size: 100vw;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    min-height: 38vw;
+    min-height: fit-content;
   }
 }
 
-/* BIGGER-THAN-MOBILE BACKGROUND */
+/* BIGGER-THAN-MOBILE BACKGROUNDS */
 @media only screen and (min-width: 600px) {
+  .background {
+    background: url("../../../../public/discord-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    min-height: fit-content;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
   .background {
     background: url("../../../../public/discord-bg.svg");
     background-repeat: no-repeat;

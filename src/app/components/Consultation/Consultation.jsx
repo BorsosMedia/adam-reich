@@ -5,8 +5,8 @@ import styles from "./Consultation.module.css";
 
 export function Consultation() {
   return (
-    <section
-      className={`${styles.background} text-white flex flex-col items-center justify-start md:justify-center text-center text-[0.8em] py-5 px-[10vw] md:px-0`}
+    <article
+      className={`${styles.background} text-white flex flex-col items-center justify-center text-center text-[0.8em] pt-8 pb-24 px-[10vw] md:px-0`}
     >
       <h3 className="text-pink font-Organetto">
         or GET A FREE 15 MINUTE CONSULTATION CALL
@@ -23,6 +23,6 @@ export function Consultation() {
       <button className="bg-blue rounded-3xl font-bold px-4 py-1">
         <a href="#">Go To The Calendar</a>
       </button>
-    </section>
+    </article>
   );
 }
