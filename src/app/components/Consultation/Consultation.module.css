@@ -1,18 +1,18 @@
 /* MOBILE BACKGROUND */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
   .background {
-    background: url("../../../../public/one-time-plans-mobile-bg.svg");
+    background: url("../../../../public/consultation-mobile.svg");
     background-size: 100vw;
     background-repeat: no-repeat;
     width: 100vw;
-    min-height: 38vw;
+    height: 38vh;
   }
 }
 
 /* BIGGER-THAN-MOBILE BACKGROUND */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 620px) {
   .background {
-    background: url("../../../../public/one-time-plans-bg.svg");
+    background: url("../../../../public/consultation.svg");
     background-size: 100vw;
     background-repeat: no-repeat;
     width: 100vw;

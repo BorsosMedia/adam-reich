@@ -1,9 +1,23 @@
-.background {
-  background: url("../../../../public/coaching-plans-bg.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 100vw;
-  min-height: 12vw;
+/* MOBILE BACKGROUND */
+@media only screen and (max-width: 600px) {
+  .background {
+    background: url("../../../../public/coaching-plans-mobile-bg.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    min-height: 28vw;
+  }
+}
+
+/* BIGGER-THAN-MOBILE BACKGROUND */
+@media only screen and (min-width: 600px) {
+  .background {
+    background: url("../../../../public/coaching-plans-bg.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    min-height: 12vw;
+  }
 }
 
 .monthlyBg {

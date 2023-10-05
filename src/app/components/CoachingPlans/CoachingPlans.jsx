@@ -15,11 +15,11 @@ export function CoachingPlans() {
   };
 
   return (
-    <article id="coaching-plans">
+    <article id="coaching-plans" className="mb-10 md:mb-20">
       <h2
         className={`${styles.background} text-white flex justify-center items-center font-Organetto text-h6 md:text-h4 whitespace-nowrap`}
       >
-        <span>Coaching Plans</span>
+        Coaching Plans
       </h2>
       <p className="font-Mortend text-center my-10 font-bold px-full md:text-h6">
         Choose the plan that fits you better:
@@ -37,7 +37,7 @@ export function CoachingPlans() {
           htmlFor="monthly"
           className={`${plan === "monthly" ? selected : notSelected} ${
             plan === "monthly" ? styles.monthlyBg : ""
-          } cursor-pointer`}
+          } cursor-pointer uppercase`}
           onClick={handleChange}
         >
           Monthly
@@ -53,7 +53,7 @@ export function CoachingPlans() {
           htmlFor="3-months"
           className={`${plan === "3-months" ? selected : notSelected} ${
             plan === "3-months" ? styles.months3Bg : ""
-          } cursor-pointer px-10`}
+          } cursor-pointer uppercase`}
           onClick={handleChange}
         >
           3 months
@@ -69,7 +69,7 @@ export function CoachingPlans() {
           htmlFor="6-months"
           className={`${plan === "6-months" ? selected : notSelected} ${
             plan === "6-months" ? styles.months6Bg : ""
-          } cursor-pointer px-10`}
+          } cursor-pointer uppercase`}
           onClick={handleChange}
         >
           6 months
@@ -85,7 +85,7 @@ export function CoachingPlans() {
           htmlFor="annual"
           className={`${plan === "annual" ? selected : notSelected} ${
             plan === "annual" ? styles.annualBg : ""
-          } cursor-pointer px-10`}
+          } cursor-pointer uppercase`}
           onClick={handleChange}
         >
           Annual
@@ -110,8 +110,8 @@ export function CoachingPlans() {
         )}
         {plan === "3-months" && (
           <CoachingPlanCards
-            title={"3 months"}
-            price="499"
+            title="3 months"
+            price="1077.3"
             bullets={[
               "Lorem ipsum dolor sit amet.",
               "Consectetur adipiscing elit.",
@@ -122,12 +122,14 @@ export function CoachingPlans() {
               "Sed ac eleifend eros, non mollis justo.",
               "Phasellus tincidunt auctor vehicula.",
             ]}
+            discount="10% off"
+            before="1197"
           />
         )}
         {plan === "6-months" && (
           <CoachingPlanCards
-            title={"6 months"}
-            price="599"
+            title="6 months"
+            price="2034.9"
             bullets={[
               "Lorem ipsum dolor sit amet.",
               "Consectetur adipiscing elit.",
@@ -138,12 +140,14 @@ export function CoachingPlans() {
               "Sed ac eleifend eros, non mollis justo.",
               "Phasellus tincidunt auctor vehicula.",
             ]}
+            discount="15% off"
+            before="2394"
           />
         )}
         {plan === "annual" && (
           <CoachingPlanCards
             title={plan}
-            price="699"
+            price="3830.4"
             bullets={[
               "Lorem ipsum dolor sit amet.",
               "Consectetur adipiscing elit.",
@@ -154,6 +158,8 @@ export function CoachingPlans() {
               "Sed ac eleifend eros, non mollis justo.",
               "Phasellus tincidunt auctor vehicula.",
             ]}
+            discount="20% off"
+            before="4788"
           />
         )}
       </section>
