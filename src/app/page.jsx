@@ -17,9 +17,9 @@ export default function Home() {
       <CoachingPlans />
       <OneTimePlans />
       <Consultation />
-      {/* <AboutMe /> */}
-      {/* <ClientsReviews /> */}
-      {/* <DiscordSection /> */}
+      <AboutMe />
+      <ClientsReviews />
+      <DiscordSection />
       <article className="px-[10vw] py-[5vh]">
         {/* <InstagramWidget /> */}
       </article>

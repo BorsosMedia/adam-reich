@@ -6,7 +6,7 @@ import styles from "./Consultation.module.css";
 export function Consultation() {
   return (
     <section
-      className={`${styles.background} text-white flex flex-col items-center justify-start md:justify-center text-center text-[0.8em] py-5`}
+      className={`${styles.background} text-white flex flex-col items-center justify-start md:justify-center text-center text-[0.8em] py-5 px-[10vw] md:px-0`}
     >
       <h3 className="text-pink font-Organetto">
         or GET A FREE 15 MINUTE CONSULTATION CALL
