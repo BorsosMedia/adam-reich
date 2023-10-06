@@ -22,13 +22,13 @@ export function DiscordSection() {
           Join my <span className="text-blue">discord server</span>
         </h2>
       </section>
-      <section className="grid grid-cols-6 justify-center items-center gap-10">
+      <section className="grid grid-cols-1 br:grid-cols-6 justify-center items-center gap-10">
         <Image
           src={discordAdam}
           alt="Adam's Picture"
-          className="col-start-2 col-span-2 place-content-center"
+          className="br:col-start-2 br:col-span-2 place-content-center px-[10vw] br:px-0"
         />
-        <section className="col-span-2 place-content-center">
+        <section className="br:col-span-2 place-content-center text-center br:text-left">
           <div className="hidden md:block">
             <Image
               src={discordLogo}

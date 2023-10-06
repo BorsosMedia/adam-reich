@@ -33,6 +33,9 @@ module.exports = {
         Articulat: "Articulat",
         Poppins: "Poppins",
       },
+      screens: {
+        br: "600px",
+      },
     },
   },
   plugins: [require("tailwind-scrollbar")],

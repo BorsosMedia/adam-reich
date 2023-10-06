@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.6.0",
     "next": "^13.5.4",
     "react": "latest",
     "react-burger-menu": "^3.0.9",

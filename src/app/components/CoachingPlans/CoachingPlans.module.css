@@ -22,32 +22,32 @@
 
 .monthlyBg {
   background: url("../../../../public/monthly.png");
-  background-size: cover;
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: 100%;
   background-position: center;
+  width: fit-content;
 }
 
 .months3Bg {
   background: url("../../../../public/3-months.png");
-  background-size: cover;
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: 100%;
   background-position: center;
+  width: fit-content;
 }
 
 .months6Bg {
   background: url("../../../../public/6-months.png");
-  background-size: cover;
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: 100%;
   background-position: center;
+  width: fit-content;
 }
 
 .annualBg {
   background: url("../../../../public/annual.png");
-  background-size: cover;
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: 100%;
   background-position: center;
+  width: fit-content;
 }

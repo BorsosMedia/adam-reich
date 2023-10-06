@@ -25,7 +25,7 @@ export function CoachingPlans() {
         Choose the plan that fits you better:
       </p>
 
-      <fieldset className="font-Mortend grid grid-cols-2 md:grid-cols-4 place-self-center font-bold text-[0.8em] gap-10 text-center">
+      <fieldset className="font-Mortend grid grid-cols-3 place-self-center md:flex flex-row justify-center items-center font-bold text-[0.8em] gap-2 text-center">
         <input
           type="radio"
           value="monthly"
@@ -37,7 +37,7 @@ export function CoachingPlans() {
           htmlFor="monthly"
           className={`${plan === "monthly" ? selected : notSelected} ${
             plan === "monthly" ? styles.monthlyBg : ""
-          } cursor-pointer uppercase`}
+          } cursor-pointer uppercase p-4 place-self-center`}
           onClick={handleChange}
         >
           Monthly
@@ -53,7 +53,7 @@ export function CoachingPlans() {
           htmlFor="3-months"
           className={`${plan === "3-months" ? selected : notSelected} ${
             plan === "3-months" ? styles.months3Bg : ""
-          } cursor-pointer uppercase`}
+          } cursor-pointer uppercase p-4 place-self-center`}
           onClick={handleChange}
         >
           3 months
@@ -69,7 +69,7 @@ export function CoachingPlans() {
           htmlFor="6-months"
           className={`${plan === "6-months" ? selected : notSelected} ${
             plan === "6-months" ? styles.months6Bg : ""
-          } cursor-pointer uppercase`}
+          } cursor-pointer uppercase p-4 place-self-center`}
           onClick={handleChange}
         >
           6 months
@@ -85,7 +85,7 @@ export function CoachingPlans() {
           htmlFor="annual"
           className={`${plan === "annual" ? selected : notSelected} ${
             plan === "annual" ? styles.annualBg : ""
-          } cursor-pointer uppercase`}
+          } cursor-pointer uppercase p-4 col-start-2 place-self-center`}
           onClick={handleChange}
         >
           Annual

@@ -2,6 +2,7 @@
 
 import styles from "./OneTimePlans.module.css";
 import { OneTimePlanCards } from "../OneTimePlanCards/OneTimePlanCards";
+import { OneTimePlansSlider } from "../OneTimePlansSlider/OneTimePlansSlider";
 
 export function OneTimePlans() {
   return (
@@ -11,47 +12,58 @@ export function OneTimePlans() {
       >
         One Time Plans
       </h2>
-      <section className="grid grid-cols-1 md:grid-cols-2 justify-center items-stretch gap-10 mt-5 md:mt-10">
-        <OneTimePlanCards
-          title="3 month bulking plan"
-          price="299"
-          bullets={[
-            "Lorem ipsum dolor sit amet.",
-            "Consectetur adipiscing elit.",
-            "Sed ac eleifend eros, non mollis justo.",
-            "Phasellus tincidunt auctor vehicula.",
-          ]}
-        />
-        <OneTimePlanCards
-          title="3 month shredding plan"
-          price="299"
-          bullets={[
-            "Lorem ipsum dolor sit amet.",
-            "Consectetur adipiscing elit.",
-            "Sed ac eleifend eros, non mollis justo.",
-            "Phasellus tincidunt auctor vehicula.",
-          ]}
-        />
-        <OneTimePlanCards
-          title="3 month body recomposition plan"
-          price="299"
-          bullets={[
-            "Lorem ipsum dolor sit amet.",
-            "Consectetur adipiscing elit.",
-            "Sed ac eleifend eros, non mollis justo.",
-            "Phasellus tincidunt auctor vehicula.",
-          ]}
-        />
-        <OneTimePlanCards
-          title="6 week reverse diet plan"
-          price="299"
-          bullets={[
-            "Lorem ipsum dolor sit amet.",
-            "Consectetur adipiscing elit.",
-            "Sed ac eleifend eros, non mollis justo.",
-            "Phasellus tincidunt auctor vehicula.",
-          ]}
-        />
+      <section className="lg:hidden">
+        <OneTimePlansSlider />
+      </section>
+      <section className="hidden lg:grid grid-cols-2 justify-center items-stretch gap-10 mt-5 md:mt-10">
+        <div className="justify-self-end self-center">
+          <OneTimePlanCards
+            title="3 month bulking plan"
+            price="299"
+            bullets={[
+              "Lorem ipsum dolor sit amet.",
+              "Consectetur adipiscing elit.",
+              "Sed ac eleifend eros, non mollis justo.",
+              "Phasellus tincidunt auctor vehicula.",
+            ]}
+          />
+        </div>
+        <div className="justify-self-start">
+          <OneTimePlanCards
+            title="3 month shredding plan"
+            price="299"
+            bullets={[
+              "Lorem ipsum dolor sit amet.",
+              "Consectetur adipiscing elit.",
+              "Sed ac eleifend eros, non mollis justo.",
+              "Phasellus tincidunt auctor vehicula.",
+            ]}
+          />
+        </div>
+        <div className="justify-self-end">
+          <OneTimePlanCards
+            title="3 month body recomposition plan"
+            price="299"
+            bullets={[
+              "Lorem ipsum dolor sit amet.",
+              "Consectetur adipiscing elit.",
+              "Sed ac eleifend eros, non mollis justo.",
+              "Phasellus tincidunt auctor vehicula.",
+            ]}
+          />
+        </div>
+        <div className="justify-self-start">
+          <OneTimePlanCards
+            title="6 week reverse diet plan"
+            price="299"
+            bullets={[
+              "Lorem ipsum dolor sit amet.",
+              "Consectetur adipiscing elit.",
+              "Sed ac eleifend eros, non mollis justo.",
+              "Phasellus tincidunt auctor vehicula.",
+            ]}
+          />
+        </div>
       </section>
     </article>
   );
