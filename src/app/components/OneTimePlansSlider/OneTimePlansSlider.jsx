@@ -87,6 +87,7 @@ export function OneTimePlansSlider() {
           {">"}
         </button>
       </div>
+      <p className="text-pink text-center">Swipe to see more One Time Plans</p>
     </div>
   );
 }
