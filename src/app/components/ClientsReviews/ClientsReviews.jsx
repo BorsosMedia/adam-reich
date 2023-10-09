@@ -9,7 +9,10 @@ export function ClientsReviews() {
       </h2>
 
       <div className="px-[10vw] my-10">
-        <div className="elfsight-app-d5b58718-b05e-43c0-8ef9-aa514349201a" />
+        <div
+          className="elfsight-app-d5b58718-b05e-43c0-8ef9-aa514349201a"
+          suppressHydrationWarning
+        />
       </div>
     </article>
   );
