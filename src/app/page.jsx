@@ -21,9 +21,7 @@ export default function Home() {
       <AboutMe />
       <ClientsReviews />
       <DiscordSection />
-      <article className="px-[10vw] py-[5vh]">
-        <InstagramWidget />
-      </article>
+      <InstagramWidget />
     </main>
   );
 }
