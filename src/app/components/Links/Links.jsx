@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function Links() {
   const hover =
-    "bg-no-repeat bg-left-bottom pb-[4px] rounded-sm w-fit bg-gradient-to-r from-blue to-pink bg-[length:0%_2px] hover:bg-[length:100%_3px] transition-all ease-in-out duration-500";
+    "bg-no-repeat bg-left-bottom pb-[4px] rounded-sm w-fit bg-gradient-to-r from-blue to-pink bg-[length:0%_3px] hover:bg-[length:100%_3px] transition-all ease-in-out duration-500";
 
   return (
     <>
