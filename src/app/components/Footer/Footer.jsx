@@ -14,7 +14,8 @@ export function Footer() {
   const infoIcon = "w-[1em] h-auto";
   const socialIcon =
     "w-[1.5em] h-auto hover:scale-110 cursor-pointer transition-all duration-300 ease-in-out";
-  const contactInfo = "flex items-center gap-5";
+  const contactInfo =
+    "flex items-center gap-5 hover:text-blue transition-all ease-in-out duration-300";
 
   return (
     <footer className="bg-black text-white p-[2em] text-[0.8em]">
@@ -64,14 +65,20 @@ export function Footer() {
         </section>
       </article>
       <article className="text-center mt-10 md:mt-20">
-        <a className="underline">Legal and Privacy Policy</a>
+        <a
+          href="#"
+          // target="_blank"
+          className="underline hover:text-blue transition-all ease-in-out duration-300"
+        >
+          Legal and Privacy Policy
+        </a>
         <p>
           Copyright © 2023 - All Rights Reserved / Website Developed and
           Designed by{" "}
           <a
             href="https://www.borsosmedia.com/"
             target="_blank"
-            className="underline"
+            className="underline hover:text-blue transition-all ease-in-out duration-300"
           >
             Borsos Media
           </a>
