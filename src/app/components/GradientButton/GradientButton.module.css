@@ -1,11 +1,5 @@
-.discount {
-  background: url("../../../../public/discount.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
-.cardBg {
-  background: linear-gradient(to right, #00aeef, #dd4398);
+.bg {
+  background: linear-gradient(135deg, #dd4398, #00aeef);
   background-size: 300%;
   animation: gradient 10s ease infinite;
   -webkit-animation: gradient 10s ease infinite;
