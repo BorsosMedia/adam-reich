@@ -5,13 +5,27 @@ import "@glidejs/glide/dist/css/glide.theme.min.css";
 import { useEffect } from "react";
 import Glide, {
   Controls,
-  Breakpoints,
+  Swipe,
+  Autoplay,
 } from "@glidejs/glide/dist/glide.modular.esm";
 import { OneTimePlanCards } from "../OneTimePlanCards/OneTimePlanCards";
 
 export function OneTimePlansSlider() {
+  const arrowStyle = {
+    color: "#181818",
+    fontWeight: "bold",
+  };
+
   useEffect(() => {
-    new Glide(".glide").mount({ Controls, Breakpoints });
+    new Glide(".glide", {
+      autoplay: 5000,
+      hoverpause: false,
+      perSwipe: 1,
+    }).mount({
+      Controls,
+      Swipe,
+      Autoplay,
+    });
   }, []);
 
   return (
@@ -75,18 +89,15 @@ export function OneTimePlansSlider() {
       <div className="glide__arrows" data-glide-el="controls">
         <button
           className="glide__arrow glide__arrow--left"
-          style={{
-            color: "#181818",
-            fontWeight: "bold",
-          }}
           data-glide-dir="<"
+          style={arrowStyle}
         >
           {"<"}
         </button>
         <button
           className="glide__arrow glide__arrow--right"
-          style={{ color: "#181818", fontWeight: "bold" }}
           data-glide-dir=">"
+          style={arrowStyle}
         >
           {">"}
         </button>
