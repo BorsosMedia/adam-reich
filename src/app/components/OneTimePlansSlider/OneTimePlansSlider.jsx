@@ -20,49 +20,53 @@ export function OneTimePlansSlider() {
         <ul className="glide__slides">
           <li className="glide__slide">
             <OneTimePlanCards
-              title="3 month bulking plan"
+              title="Building mass"
+              duration="3 month"
               price="299"
               bullets={[
-                "Lorem ipsum dolor sit amet.",
-                "Consectetur adipiscing elit.",
-                "Sed ac eleifend eros, non mollis justo.",
-                "Phasellus tincidunt auctor vehicula.",
+                "Customized Nutrition",
+                "Strength Training",
+                "Progressive Overload",
+                "Rest and Recovery",
               ]}
             />
           </li>
           <li className="glide__slide">
             <OneTimePlanCards
-              title="3 month shredding plan"
+              title="Ripped and shredded"
+              duration="3 month"
               price="299"
               bullets={[
-                "Lorem ipsum dolor sit amet.",
-                "Consectetur adipiscing elit.",
-                "Sed ac eleifend eros, non mollis justo.",
-                "Phasellus tincidunt auctor vehicula.",
+                "High Intensity Workouts",
+                "Targeted Cardio Training",
+                "Nutritional Plan",
+                "Progress Tracking",
               ]}
             />
           </li>
           <li className="glide__slide">
             <OneTimePlanCards
-              title="3 month body recomposition plan"
+              title="Lean and mean"
+              duration="3 month"
               price="299"
               bullets={[
-                "Lorem ipsum dolor sit amet.",
-                "Consectetur adipiscing elit.",
-                "Sed ac eleifend eros, non mollis justo.",
-                "Phasellus tincidunt auctor vehicula.",
+                "Balanced Caloric Intake",
+                "Strength Training",
+                "Cardio Exercises",
+                "Progress Tracking",
               ]}
             />
           </li>
           <li className="glide__slide">
             <OneTimePlanCards
-              title="6 week reverse diet plan"
+              title="Weight loss"
+              duration="6 week"
               price="299"
               bullets={[
-                "Lorem ipsum dolor sit amet.",
-                "Consectetur adipiscing elit.",
-                "Sed ac eleifend eros, non mollis justo.",
-                "Phasellus tincidunt auctor vehicula.",
+                "Caloric Increases",
+                "Macronutrient Adjustments",
+                "Strength Training",
+                "Metabolic Monitoring",
               ]}
             />
           </li>
@@ -87,7 +91,9 @@ export function OneTimePlansSlider() {
           {">"}
         </button>
       </div>
-      <p className="text-pink text-center">Swipe to see more One Time Plans</p>
+      <p className="text-pink text-center mt-5 md:mt-10">
+        Swipe to see more One Time Plans
+      </p>
     </div>
   );
 }

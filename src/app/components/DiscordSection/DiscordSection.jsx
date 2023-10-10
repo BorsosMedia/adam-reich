@@ -41,13 +41,13 @@ export function DiscordSection() {
           </div>
           <div className="text-[0.8em] mb-10">
             <p>
-              Join our community and find more people like you in their journey!
+              Join our community to find more people in the same journey as you!
             </p>
             <p className="my-5">You'll be able to:</p>
             <ul>
               <li>-Share experiences</li>
-              <li>-Exchange information and knowledge</li>
-              <li>-A great motivational environment!</li>
+              <li>-Exchange information</li>
+              <li>-Get motivated</li>
             </ul>
           </div>
           <div className="hidden md:block">

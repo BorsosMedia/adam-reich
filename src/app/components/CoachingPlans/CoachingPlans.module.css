@@ -20,12 +20,13 @@
   }
 }
 
-.monthlyBg {
+/* .monthlyBg {
   background: url("../../../../public/monthly.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
   width: fit-content;
+  padding: 1rem;
 }
 
 .months3Bg {
@@ -34,6 +35,7 @@
   background-size: 100%;
   background-position: center;
   width: fit-content;
+  padding: 1rem;
 }
 
 .months6Bg {
@@ -42,6 +44,7 @@
   background-size: 100%;
   background-position: center;
   width: fit-content;
+  padding: 1rem;
 }
 
 .annualBg {
@@ -50,4 +53,5 @@
   background-size: 100%;
   background-position: center;
   width: fit-content;
-}
+  padding: 1rem;
+} */

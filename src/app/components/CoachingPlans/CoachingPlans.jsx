@@ -7,8 +7,10 @@ import { useState } from "react";
 export function CoachingPlans() {
   const [plan, setPlan] = useState("monthly");
 
-  const selected = "text-pink";
-  const notSelected = "hover:text-pink transition-all ease-in-out duration-300";
+  const buttonStyling =
+    "cursor-pointer uppercase px-4 py-2 place-self-center text-white bg-blue rounded-lg";
+  const selected = "bg-pink";
+  const notSelected = "hover:bg-pink transition-all ease-in-out duration-300";
 
   const handleChange = (event) => {
     setPlan(event.target.htmlFor);
@@ -22,7 +24,7 @@ export function CoachingPlans() {
         Coaching Plans
       </h2>
       <p className="font-Mortend text-center my-10 font-bold px-full md:text-h6">
-        Choose the plan that fits you better:
+        Choose the plan that fits you best
       </p>
 
       <fieldset className="font-Mortend grid grid-cols-3 place-self-center md:flex flex-row justify-center items-center font-bold text-[0.8em] gap-2 text-center">
@@ -35,41 +37,41 @@ export function CoachingPlans() {
         />
         <label
           htmlFor="monthly"
-          className={`${plan === "monthly" ? selected : notSelected} ${
-            plan === "monthly" ? styles.monthlyBg : ""
-          } cursor-pointer uppercase p-4 place-self-center`}
+          className={`${
+            plan === "monthly" ? selected : notSelected
+          } ${buttonStyling}`}
           onClick={handleChange}
         >
           Monthly
         </label>
         <input
           type="radio"
-          value="3-months"
-          id="3-months"
+          value="3-month"
+          id="3-month"
           name="plans"
           className="hidden"
         />
         <label
-          htmlFor="3-months"
-          className={`${plan === "3-months" ? selected : notSelected} ${
-            plan === "3-months" ? styles.months3Bg : ""
-          } cursor-pointer uppercase p-4 place-self-center`}
+          htmlFor="3-month"
+          className={`${
+            plan === "3-month" ? selected : notSelected
+          } ${buttonStyling}`}
           onClick={handleChange}
         >
           3 months
         </label>
         <input
           type="radio"
-          value="6-months"
-          id="6-months"
+          value="6-month"
+          id="6-month"
           name="plans"
           className="hidden"
         />
         <label
-          htmlFor="6-months"
-          className={`${plan === "6-months" ? selected : notSelected} ${
-            plan === "6-months" ? styles.months6Bg : ""
-          } cursor-pointer uppercase p-4 place-self-center`}
+          htmlFor="6-month"
+          className={`${
+            plan === "6-month" ? selected : notSelected
+          } ${buttonStyling}`}
           onClick={handleChange}
         >
           6 months
@@ -83,63 +85,28 @@ export function CoachingPlans() {
         />
         <label
           htmlFor="annual"
-          className={`${plan === "annual" ? selected : notSelected} ${
-            plan === "annual" ? styles.annualBg : ""
-          } cursor-pointer uppercase p-4 col-start-2 place-self-center`}
+          className={`${
+            plan === "annual" ? selected : notSelected
+          } ${buttonStyling} col-span-3`}
           onClick={handleChange}
         >
           Annual
         </label>
       </fieldset>
       <section className="mt-10">
-        {plan === "monthly" && (
+        {plan === "monthly" && <CoachingPlanCards title={plan} price="399" />}
+        {plan === "3-month" && (
           <CoachingPlanCards
-            title={plan}
-            price="399"
-            bullets={[
-              "Lorem ipsum dolor sit amet.",
-              "Consectetur adipiscing elit.",
-              "Sed ac eleifend eros, non mollis justo.",
-              "Phasellus tincidunt auctor vehicula.",
-              "Lorem ipsum dolor sit amet.",
-              "Consectetur adipiscing elit.",
-              "Sed ac eleifend eros, non mollis justo.",
-              "Phasellus tincidunt auctor vehicula.",
-            ]}
-          />
-        )}
-        {plan === "3-months" && (
-          <CoachingPlanCards
-            title="3 months"
+            title="3 month"
             price="1077.3"
-            bullets={[
-              "Lorem ipsum dolor sit amet.",
-              "Consectetur adipiscing elit.",
-              "Sed ac eleifend eros, non mollis justo.",
-              "Phasellus tincidunt auctor vehicula.",
-              "Lorem ipsum dolor sit amet.",
-              "Consectetur adipiscing elit.",
-              "Sed ac eleifend eros, non mollis justo.",
-              "Phasellus tincidunt auctor vehicula.",
-            ]}
             discount="10% off"
             before="1197"
           />
         )}
-        {plan === "6-months" && (
+        {plan === "6-month" && (
           <CoachingPlanCards
-            title="6 months"
+            title="6 month"
             price="2034.9"
-            bullets={[
-              "Lorem ipsum dolor sit amet.",
-              "Consectetur adipiscing elit.",
-              "Sed ac eleifend eros, non mollis justo.",
-              "Phasellus tincidunt auctor vehicula.",
-              "Lorem ipsum dolor sit amet.",
-              "Consectetur adipiscing elit.",
-              "Sed ac eleifend eros, non mollis justo.",
-              "Phasellus tincidunt auctor vehicula.",
-            ]}
             discount="15% off"
             before="2394"
           />
@@ -148,16 +115,6 @@ export function CoachingPlans() {
           <CoachingPlanCards
             title={plan}
             price="3830.4"
-            bullets={[
-              "Lorem ipsum dolor sit amet.",
-              "Consectetur adipiscing elit.",
-              "Sed ac eleifend eros, non mollis justo.",
-              "Phasellus tincidunt auctor vehicula.",
-              "Lorem ipsum dolor sit amet.",
-              "Consectetur adipiscing elit.",
-              "Sed ac eleifend eros, non mollis justo.",
-              "Phasellus tincidunt auctor vehicula.",
-            ]}
             discount="20% off"
             before="4788"
           />

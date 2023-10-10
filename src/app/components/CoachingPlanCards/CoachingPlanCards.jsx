@@ -3,7 +3,7 @@
 import styles from "./CoachingPlanCards.module.css";
 import { GradientButton } from "../GradientButton/GradientButton";
 
-export function CoachingPlanCards({ title, price, bullets, discount, before }) {
+export function CoachingPlanCards({ title, price, discount, before }) {
   return (
     <section className="flex flex-col md:flex-row justify-center items-center md:items-between gap-10 md:gap-20">
       <div className="min-w-fit min-h-fit p-2 bg-gradient-to-r from-blue to-pink rounded-[2rem]">
@@ -30,16 +30,23 @@ export function CoachingPlanCards({ title, price, bullets, discount, before }) {
             <span className="text-[0.3em]">
               /
               <span className="font-Organetto">
-                {title === "monthly" ? "month" : title}
+                {title === "monthly"
+                  ? "month"
+                  : title === "annual"
+                  ? title
+                  : `${title}s`}
               </span>
             </span>
           </p>
           <GradientButton content="Purchase" />
         </div>
       </div>
-      <ul className="list-disc flex flex-col items-center md:items-start">
-        {bullets?.length > 0 &&
-          bullets.map((bullet, index) => <li key={index}>{bullet}</li>)}
+      <ul className="list-disc flex flex-col items-center md:items-start gap-y-half">
+        <li>SMS & Email Check-ins</li>
+        <li>Personalized Training</li>
+        <li>Nutrition and Rehab</li>
+        <li>Lifestyle Advice</li>
+        <li>Includes Initial Consultation</li>
       </ul>
     </section>
   );

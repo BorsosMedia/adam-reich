@@ -22,15 +22,15 @@ export function AboutMe() {
           className="md:hidden mt-5 max-w-[80vw]"
         />
         <p className="my-5">
-          Co-owner of ReinventU Gym. I have 20+ years of bodybuilding
-          experience. I'm an expert helping clients exceed their limits and
-          achieve goals.
+          I'm the co-owner of ReinventU Gym. With 20+ years of bodybuilding
+          experience, I'm an expert at helping clients exceed their limits to
+          achieve their goals.
         </p>
         <p>
-          I work with all fitness levels, from pros to beginners. My
-          specializations include personalized training, nutrition, and rehab.
-          With my motivational and success-focused attitude I'll help you
-          transform your body and mind.
+          I work with people of all fitness levels, from pros to beginners. I
+          specialize in personalized training, nutrition and rehab. With my
+          motivational, success-focused attitude, I know I can help you
+          transform body and mind.
         </p>
       </section>
       <Image

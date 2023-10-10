@@ -18,49 +18,53 @@ export function OneTimePlans() {
       <section className="hidden lg:grid grid-cols-2 justify-center items-stretch gap-10 mt-5 md:mt-10">
         <div className="justify-self-end self-center">
           <OneTimePlanCards
-            title="3 month bulking plan"
+            title="Building mass"
+            duration="3 month"
             price="299"
             bullets={[
-              "Lorem ipsum dolor sit amet.",
-              "Consectetur adipiscing elit.",
-              "Sed ac eleifend eros, non mollis justo.",
-              "Phasellus tincidunt auctor vehicula.",
+              "Customized Nutrition",
+              "Strength Training",
+              "Progressive Overload",
+              "Rest and Recovery",
             ]}
           />
         </div>
         <div className="justify-self-start">
           <OneTimePlanCards
-            title="3 month shredding plan"
+            title="Ripped and shredded"
+            duration="3 month"
             price="299"
             bullets={[
-              "Lorem ipsum dolor sit amet.",
-              "Consectetur adipiscing elit.",
-              "Sed ac eleifend eros, non mollis justo.",
-              "Phasellus tincidunt auctor vehicula.",
+              "High Intensity Workouts",
+              "Targeted Cardio Training",
+              "Nutritional Plan",
+              "Progress Tracking",
             ]}
           />
         </div>
         <div className="justify-self-end">
           <OneTimePlanCards
-            title="3 month body recomposition plan"
+            title="Lean and mean"
+            duration="3 month"
             price="299"
             bullets={[
-              "Lorem ipsum dolor sit amet.",
-              "Consectetur adipiscing elit.",
-              "Sed ac eleifend eros, non mollis justo.",
-              "Phasellus tincidunt auctor vehicula.",
+              "Balanced Caloric Intake",
+              "Strength Training",
+              "Cardio Exercises",
+              "Progress Tracking",
             ]}
           />
         </div>
         <div className="justify-self-start">
           <OneTimePlanCards
-            title="6 week reverse diet plan"
+            title="Weight loss"
+            duration="6 week"
             price="299"
             bullets={[
-              "Lorem ipsum dolor sit amet.",
-              "Consectetur adipiscing elit.",
-              "Sed ac eleifend eros, non mollis justo.",
-              "Phasellus tincidunt auctor vehicula.",
+              "Caloric Increases",
+              "Macronutrient Adjustments",
+              "Strength Training",
+              "Metabolic Monitoring",
             ]}
           />
         </div>
