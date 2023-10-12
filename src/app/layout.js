@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
           data-use-service-core
           defer
         ></script>
+        <script async src="https://link.msgsndr.com/js/form_embed.js"></script>
       </head>
       <body>
         <Navbar />
