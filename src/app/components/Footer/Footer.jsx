@@ -2,6 +2,7 @@
 
 import styles from "./Footer.module.css";
 import Image from "next/image";
+import Link from "next/link";
 import logo from "../../../../public/logo.png";
 import phone from "../../../../public/footer/phone.png";
 import mail from "../../../../public/footer/mail.png";
@@ -65,13 +66,12 @@ export function Footer() {
         </section>
       </article>
       <article className="text-center mt-10 md:mt-20">
-        <a
+        <Link
           href="#"
-          // target="_blank"
           className="underline hover:text-blue transition-all ease-in-out duration-300"
         >
           Legal and Privacy Policy
-        </a>
+        </Link>
         <p>
           Copyright © 2023 - All Rights Reserved / Website Developed and
           Designed by{" "}
