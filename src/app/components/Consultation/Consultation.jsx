@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 
+import Link from "next/link";
 import styles from "./Consultation.module.css";
 
 export function Consultation() {
@@ -17,9 +18,11 @@ export function Consultation() {
           to talk about the process of rediscovering your best version.
         </span>
       </p>
-      <button className="bg-blue rounded-3xl font-bold px-4 py-1 hover:scale-110 transition-all ease-in-out duration-300">
-        <a href="#">Go To The Calendar</a>
-      </button>
+      <Link href="https://coaching.rnvntucoaching.com/inquiry-call">
+        <button className="bg-blue rounded-3xl font-bold px-4 py-1 hover:scale-110 transition-all ease-in-out duration-300">
+          Go To The Calendar
+        </button>
+      </Link>
     </article>
   );
 }
