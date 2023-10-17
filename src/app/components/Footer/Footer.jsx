@@ -23,7 +23,7 @@ export function Footer() {
       <article className="grid grid-cols-1 md:grid-cols-11 items-stretch justify-center">
         <Image
           src={logo}
-          alt="logo"
+          alt="RNVNTU Coaching LLC Logo"
           className="w-[15em] h-auto md:col-span-5 justify-self-center self-start md:justify-self-end md:self-center"
         />
         <div

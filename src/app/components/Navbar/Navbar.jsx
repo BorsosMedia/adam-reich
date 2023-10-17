@@ -10,7 +10,11 @@ export function Navbar() {
     <header className="bg-[#000]/[0.6] py-half fixed md:absolute top-0 left-0 w-full text-white z-20 md:z-0">
       <nav>
         <ul className="hidden md:flex flex-row items-center justify-evenly">
-          <Image src={logo} alt="logo" className="w-[5em] h-auto" />
+          <Image
+            src={logo}
+            alt="RNVNTU Coaching LLC Logo"
+            className="w-[5em] h-auto"
+          />
           <Links />
         </ul>
         <div className="grid grid-cols-3 md:hidden w-full h-full">
