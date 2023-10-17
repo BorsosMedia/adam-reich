@@ -27,6 +27,7 @@ export function OneTimePlans() {
               "Progressive Overload",
               "Rest and Recovery",
             ]}
+            to="https://coaching.rnvntucoaching.com/otc-bm"
           />
         </div>
         <div className="justify-self-start">
@@ -40,6 +41,7 @@ export function OneTimePlans() {
               "Nutritional Plan",
               "Progress Tracking",
             ]}
+            to="https://coaching.rnvntucoaching.com/otc-ras"
           />
         </div>
         <div className="justify-self-end">
@@ -53,6 +55,7 @@ export function OneTimePlans() {
               "Cardio Exercises",
               "Progress Tracking",
             ]}
+            to="https://coaching.rnvntucoaching.com/otc-lam"
           />
         </div>
         <div className="justify-self-start">
@@ -66,6 +69,7 @@ export function OneTimePlans() {
               "Strength Training",
               "Metabolic Monitoring",
             ]}
+            to="https://coaching.rnvntucoaching.com/otc-wl"
           />
         </div>
       </section>

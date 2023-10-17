@@ -43,6 +43,7 @@ export function OneTimePlansSlider() {
                 "Progressive Overload",
                 "Rest and Recovery",
               ]}
+              to="https://coaching.rnvntucoaching.com/otc-bm"
             />
           </li>
           <li className="glide__slide">
@@ -56,6 +57,7 @@ export function OneTimePlansSlider() {
                 "Nutritional Plan",
                 "Progress Tracking",
               ]}
+              to="https://coaching.rnvntucoaching.com/otc-ras"
             />
           </li>
           <li className="glide__slide">
@@ -69,6 +71,7 @@ export function OneTimePlansSlider() {
                 "Cardio Exercises",
                 "Progress Tracking",
               ]}
+              to="https://coaching.rnvntucoaching.com/otc-lam"
             />
           </li>
           <li className="glide__slide">
@@ -82,6 +85,7 @@ export function OneTimePlansSlider() {
                 "Strength Training",
                 "Metabolic Monitoring",
               ]}
+              to="https://coaching.rnvntucoaching.com/otc-wl"
             />
           </li>
         </ul>

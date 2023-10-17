@@ -94,13 +94,20 @@ export function CoachingPlans() {
         </label>
       </fieldset>
       <section className="mt-10">
-        {plan === "monthly" && <CoachingPlanCards title={plan} price="399" />}
+        {plan === "monthly" && (
+          <CoachingPlanCards
+            title={plan}
+            price="399"
+            to="https://coaching.rnvntucoaching.com/ftc-mp"
+          />
+        )}
         {plan === "3-month" && (
           <CoachingPlanCards
             title="3 month"
             price="1077.3"
             discount="10% off"
             before="1197"
+            to="https://coaching.rnvntucoaching.com/ftc-3mp"
           />
         )}
         {plan === "6-month" && (
@@ -109,6 +116,7 @@ export function CoachingPlans() {
             price="2034.9"
             discount="15% off"
             before="2394"
+            to="https://coaching.rnvntucoaching.com/ftc-6mp"
           />
         )}
         {plan === "annual" && (
@@ -117,6 +125,7 @@ export function CoachingPlans() {
             price="3830.4"
             discount="20% off"
             before="4788"
+            to="https://coaching.rnvntucoaching.com/ftc-ap"
           />
         )}
       </section>

@@ -67,7 +67,8 @@ export function Footer() {
       </article>
       <article className="text-center mt-10 md:mt-20">
         <Link
-          href="#"
+          href="https://coaching.rnvntucoaching.com/legal-and-privacy-policy"
+          target="_blank"
           className="underline hover:text-blue transition-all ease-in-out duration-300"
         >
           Legal and Privacy Policy

@@ -3,7 +3,7 @@
 import styles from "./OneTimePlanCards.module.css";
 import { GradientButton } from "../GradientButton/GradientButton";
 
-export function OneTimePlanCards({ title, duration, price, bullets }) {
+export function OneTimePlanCards({ title, duration, price, bullets, to }) {
   return (
     <section className="flex flex-col md:flex-row justify-center items-center md:items-between gap-10 md:gap-20">
       <div className={`${styles.cardBg} w-fit h-fit p-2 rounded-[2rem]`}>
@@ -19,7 +19,7 @@ export function OneTimePlanCards({ title, duration, price, bullets }) {
               bullets.map((bullet, index) => <li key={index}>{bullet}</li>)}
           </ul>
           <p className="font-Mortend font-bold text-h2 text-pink">${price}</p>
-          <GradientButton content="Purchase" />
+          <GradientButton content="Purchase" to={to} />
         </div>
       </div>
     </section>

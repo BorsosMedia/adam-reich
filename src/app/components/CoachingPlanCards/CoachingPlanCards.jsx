@@ -3,7 +3,7 @@
 import styles from "./CoachingPlanCards.module.css";
 import { GradientButton } from "../GradientButton/GradientButton";
 
-export function CoachingPlanCards({ title, price, discount, before }) {
+export function CoachingPlanCards({ title, price, discount, before, to }) {
   return (
     <section className="flex flex-col md:flex-row justify-center items-center md:items-between gap-10 md:gap-20">
       <div
@@ -40,7 +40,7 @@ export function CoachingPlanCards({ title, price, discount, before }) {
               </span>
             </span>
           </p>
-          <GradientButton content="Purchase" />
+          <GradientButton content="Purchase" to={to} />
         </div>
       </div>
       <ul className="list-disc flex flex-col items-center md:items-start gap-y-half">
