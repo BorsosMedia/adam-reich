@@ -20,7 +20,10 @@ export function OneTimePlansSlider() {
     new Glide(".glide", {
       autoplay: 5000,
       hoverpause: false,
+      swipeThreshold: 1,
+      dragThreshold: 1,
       perSwipe: 1,
+      perTouch: 1,
     }).mount({
       Controls,
       Swipe,
