@@ -18,10 +18,13 @@ export function OneTimePlansSlider() {
 
   useEffect(() => {
     new Glide(".glide", {
+      type: "slider",
       autoplay: 5000,
       hoverpause: false,
-      swipeThreshold: 1,
-      dragThreshold: 1,
+      swipeThreshold: 80,
+      dragThreshold: 120,
+      touchRatio: 0.5,
+      rewind: true,
       perSwipe: 1,
       perTouch: 1,
     }).mount({
@@ -32,7 +35,7 @@ export function OneTimePlansSlider() {
   }, []);
 
   return (
-    <div className="glide">
+    <div className="glide glide--swipeable">
       <div className="glide__track" data-glide-el="track">
         <ul className="glide__slides">
           <li className="glide__slide">

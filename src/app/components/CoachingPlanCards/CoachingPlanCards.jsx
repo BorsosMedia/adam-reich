@@ -9,7 +9,7 @@ export function CoachingPlanCards({ title, price, discount, before, to }) {
       <div
         className={`${styles.cardBg} min-w-fit min-h-fit p-2 rounded-[2rem]`}
       >
-        <div className="text-white bg-black rounded-[2rem] w-fit h-fit flex flex-col items-center justify-between gap-10 text-center px-20 py-10">
+        <div className="text-white bg-black rounded-[2rem] min-w-[340px] max-w-fit h-fit flex flex-col items-center justify-between gap-10 text-center px-20 py-10">
           <h3 className="font-Organetto leading-none">
             <span className="text-pink">{title}</span>
             <br />

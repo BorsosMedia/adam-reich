@@ -12,7 +12,7 @@ export function OneTimePlans() {
       >
         One Time Plans
       </h2>
-      <section className="lg:hidden">
+      <section className="lg:hidden mt-5">
         <OneTimePlansSlider />
       </section>
       <section className="hidden lg:grid grid-cols-2 justify-center items-stretch gap-10 mt-5 md:mt-10">
