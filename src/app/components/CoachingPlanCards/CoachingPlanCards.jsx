@@ -27,6 +27,13 @@ export function CoachingPlanCards({ title, price, discount, before, to }) {
               </span>
             </p>
           )}
+          <ul className="list-disc flex flex-col items-center md:items-start gap-y-half md:hidden">
+            <li>SMS & Email Check-ins</li>
+            <li>Personalized Training</li>
+            <li>Nutrition and Rehab</li>
+            <li>Lifestyle Advice</li>
+            <li>Includes Initial Consultation</li>
+          </ul>
           <p className="font-Mortend font-bold text-h4">
             ${price}
             <span className="text-[0.3em]">
@@ -43,7 +50,7 @@ export function CoachingPlanCards({ title, price, discount, before, to }) {
           <GradientButton content="Purchase" to={to} />
         </div>
       </div>
-      <ul className="list-disc flex flex-col items-center md:items-start gap-y-half">
+      <ul className="list-disc hidden md:flex flex-col items-center md:items-start gap-y-half">
         <li>SMS & Email Check-ins</li>
         <li>Personalized Training</li>
         <li>Nutrition and Rehab</li>
