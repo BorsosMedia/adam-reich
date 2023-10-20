@@ -2,7 +2,7 @@
 @media only screen and (max-width: 900px) {
   .background {
     background: url("../../../../public/consultation-mobile.svg");
-    background-size: 100vw;
+    background-size: 106vw;
     background-repeat: no-repeat;
     width: 100vw;
     min-height: 40vw;
