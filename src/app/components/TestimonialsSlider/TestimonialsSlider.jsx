@@ -30,7 +30,7 @@ export function TestimonialsSlider() {
     backgroundColor: "rgba(24,24,24,.5)",
   };
 
-  const imageStyle = "w-[80%] md:px-0 md:w-full";
+  const imageStyle = "w-[80%] px-[10vw] md:px-0 md:w-full";
   const divStyle = "flex flex-row justify-center items-center";
 
   useEffect(() => {
