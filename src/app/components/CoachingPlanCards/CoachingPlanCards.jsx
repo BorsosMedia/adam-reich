@@ -10,7 +10,7 @@ export function CoachingPlanCards({ title, price, discount, before, to }) {
         className={`${styles.cardBg} min-w-fit min-h-fit p-2 rounded-[2rem]`}
       >
         <div className="text-white bg-black rounded-[2rem] min-w-[340px] w-[34rem] md:w-[40rem] h-fit flex flex-col items-center justify-between gap-10 text-center px-5 py-10">
-          <h3 className="font-Organetto leading-none text-h5">
+          <h3 className="font-Organetto leading-none text-h6">
             <span className="text-pink">{title}</span>
             <br />
             coaching
@@ -50,7 +50,7 @@ export function CoachingPlanCards({ title, price, discount, before, to }) {
           <GradientButton content="Purchase" to={to} />
         </div>
       </div>
-      <ul className="list-disc hidden md:flex flex-col items-center md:items-start gap-y-half">
+      <ul className="list-disc hidden md:flex flex-col items-center md:items-start gap-y-half min-w-[340px] w-[34rem] md:w-[40rem]">
         <li>SMS & Email Check-ins</li>
         <li>Personalized Training</li>
         <li>Nutrition and Rehab</li>

@@ -8,7 +8,7 @@ export function CoachingPlans() {
   const [plan, setPlan] = useState("monthly");
 
   const buttonStyling =
-    "cursor-pointer uppercase px-4 py-2 place-self-center text-white bg-blue rounded-lg w-full";
+    "cursor-pointer uppercase px-4 py-2 place-self-center text-white bg-blue rounded-lg min-w-[170px] w-[17rem] md:w-[20rem]";
   const selected = "bg-pink";
   const notSelected = "hover:bg-pink transition-all ease-in-out duration-300";
 
@@ -27,7 +27,7 @@ export function CoachingPlans() {
         Choose the plan that fits you best
       </p>
 
-      <fieldset className="font-Mortend grid grid-cols-2 place-self-center md:flex flex-row justify-center items-center font-bold text-[0.8em] gap-5 text-center px-[15vw]">
+      <fieldset className="font-Mortend grid grid-cols-2 place-self-center md:flex flex-row justify-center items-center font-bold text-[0.8em] gap-5 text-center">
         <input
           type="radio"
           value="monthly"
