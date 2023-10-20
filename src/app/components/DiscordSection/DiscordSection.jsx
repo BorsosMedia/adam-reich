@@ -39,7 +39,7 @@ export function DiscordSection() {
               Join my <span className="text-blue">discord server</span>
             </h2>
           </div>
-          <div className="text-[0.8em] mb-10 mx-5 md:mx-0">
+          <div className="mb-10 mx-5 md:mx-0">
             <p>
               Join our community to find more people in the same journey as you!
             </p>
