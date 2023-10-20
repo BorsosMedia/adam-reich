@@ -50,6 +50,7 @@ export function TestimonialsSlider() {
         768: {
           perView: 1,
           gap: 10,
+          dragThreshold: 120,
         },
       },
     }).mount({
