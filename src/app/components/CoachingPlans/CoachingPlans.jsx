@@ -8,7 +8,7 @@ export function CoachingPlans() {
   const [plan, setPlan] = useState("monthly");
 
   const buttonStyling =
-    "cursor-pointer uppercase px-4 py-2 place-self-center text-white bg-blue rounded-lg min-w-[170px] w-[17rem] md:w-[20rem]";
+    "cursor-pointer uppercase p-[1.3rem] place-self-center text-white bg-blue rounded-lg min-w-[170px] w-[17rem] md:w-[20rem]";
   const selected = "bg-pink";
   const notSelected = "hover:bg-pink transition-all ease-in-out duration-300";
 

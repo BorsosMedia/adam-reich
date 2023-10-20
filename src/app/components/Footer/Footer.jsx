@@ -30,12 +30,12 @@ export function Footer() {
           className={`${styles.separator} w-full h-[0.2em] md:w-[0.2em] md:h-full rounded justify-self-center self-center my-10 md:my-0`}
         />
         <section className="flex flex-col justify-evenly items-center md:items-start gap-5 md:col-span-5 justify-self-center self-end md:justify-self-start md:self-stretch">
-          <div className={contactInfo}>
+          {/* <div className={contactInfo}>
             <Image src={phone} alt="phone icon" className={infoIcon} />
             <a href="tel:+15612214840" target="_blank">
               (561) 221-4840
             </a>
-          </div>
+          </div> */}
           <div className={contactInfo}>
             <Image src={mail} alt="email icon" className={infoIcon} />
             <a href="mailto:info@reinventugym.com" target="_blank">
