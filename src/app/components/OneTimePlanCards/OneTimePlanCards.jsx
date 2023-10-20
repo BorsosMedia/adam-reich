@@ -19,7 +19,7 @@ export function OneTimePlanCards({ title, duration, price, bullets, to }) {
               {bullets?.length > 0 &&
                 bullets.map((bullet, index) => <li key={index}>{bullet}</li>)}
             </ul>
-            <p className="font-Mortend font-bold text-h2 text-pink">${price}</p>
+            <p className="font-Mortend font-bold text-h3 text-pink">${price}</p>
             <GradientButton content="Purchase" to={to} />
           </div>
         </div>

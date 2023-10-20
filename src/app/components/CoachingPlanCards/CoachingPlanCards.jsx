@@ -9,8 +9,8 @@ export function CoachingPlanCards({ title, price, discount, before, to }) {
       <div
         className={`${styles.cardBg} min-w-fit min-h-fit p-2 rounded-[2rem]`}
       >
-        <div className="text-white bg-black rounded-[2rem] min-w-[340px] max-w-fit h-fit flex flex-col items-center justify-between gap-10 text-center px-20 py-10">
-          <h3 className="font-Organetto leading-none">
+        <div className="text-white bg-black rounded-[2rem] min-w-[340px] w-[34rem] md:w-[40rem] h-fit flex flex-col items-center justify-between gap-10 text-center px-5 py-10">
+          <h3 className="font-Organetto leading-none text-h5">
             <span className="text-pink">{title}</span>
             <br />
             coaching
@@ -34,7 +34,7 @@ export function CoachingPlanCards({ title, price, discount, before, to }) {
             <li>Lifestyle Advice</li>
             <li>Includes Initial Consultation</li>
           </ul>
-          <p className="font-Mortend font-bold text-h2">
+          <p className="font-Mortend font-bold text-h3">
             ${price}
             <span className="text-[0.3em] px-4">
               /
