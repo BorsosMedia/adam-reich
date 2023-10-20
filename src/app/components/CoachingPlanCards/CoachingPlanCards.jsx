@@ -34,7 +34,7 @@ export function CoachingPlanCards({ title, price, discount, before, to }) {
             <li>Lifestyle Advice</li>
             <li>Includes Initial Consultation</li>
           </ul>
-          <p className="font-Mortend font-bold text-h4">
+          <p className="font-Mortend font-bold text-h2">
             ${price}
             <span className="text-[0.3em] px-4">
               /

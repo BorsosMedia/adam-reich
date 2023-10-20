@@ -19,7 +19,7 @@ export function Consultation() {
         </span>
       </p>
       <Link href="https://coaching.rnvntucoaching.com/inquiry-call">
-        <button className="bg-blue rounded-3xl font-bold px-4 py-1 hover:scale-110 transition-all ease-in-out duration-300">
+        <button className="bg-blue rounded-3xl font-bold px-[4rem] py-[1rem] hover:scale-110 transition-all ease-in-out duration-300">
           Go To The Calendar
         </button>
       </Link>

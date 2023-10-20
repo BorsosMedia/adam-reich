@@ -9,7 +9,7 @@ export function GradientButton({ content, to = "#" }) {
       {content === "Purchase" ? (
         <Link href={to}>
           <button
-            className={`${styles.bg} text-white rounded-full px-10 py-1 font-bold hover:scale-110 transition-all duration-300 ease-in-out`}
+            className={`${styles.bg} text-white rounded-full px-[4rem] py-[1rem] font-bold hover:scale-110 transition-all duration-300 ease-in-out`}
           >
             {content}
           </button>
@@ -17,7 +17,7 @@ export function GradientButton({ content, to = "#" }) {
       ) : (
         <a href={to} target="_blank">
           <button
-            className={`${styles.bg} text-white rounded-full px-10 py-1 font-bold hover:scale-110 transition-all duration-300 ease-in-out`}
+            className={`${styles.bg} text-white rounded-full px-[4rem] py-[1rem] font-bold hover:scale-110 transition-all duration-300 ease-in-out`}
           >
             {content}
           </button>
