@@ -36,7 +36,7 @@ export function CoachingPlanCards({ title, price, discount, before, to }) {
           </ul>
           <p className="font-Mortend font-bold text-h4">
             ${price}
-            <span className="text-[0.3em]">
+            <span className="text-[0.3em] px-4">
               /
               <span className="font-Organetto">
                 {title === "monthly"
