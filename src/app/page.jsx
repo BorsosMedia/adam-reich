@@ -5,7 +5,7 @@ import { HeroBanner } from "./components/HeroBanner/HeroBanner";
 import { CoachingPlans } from "./components/CoachingPlans/CoachingPlans";
 import { OneTimePlans } from "./components/OneTimePlans/OneTimePlans";
 import { AboutMe } from "./components/AboutMe/AboutMe";
-import { ClientsReviews } from "./components/ClientsReviews/ClientsReviews";
+// import { ClientsReviews } from "./components/ClientsReviews/ClientsReviews";
 import { DiscordSection } from "./components/DiscordSection/DiscordSection";
 import { Consultation } from "./components/Consultation/Consultation";
 import { InquirySection } from "./components/InquirySection/InquirySection";
@@ -19,7 +19,7 @@ export default function Home() {
       <InquirySection />
       <Consultation />
       <AboutMe />
-      <ClientsReviews />
+      {/* <ClientsReviews /> */}
       <DiscordSection />
       <InstagramWidget />
     </main>

@@ -42,7 +42,7 @@ export function OneTimePlansSlider() {
             <OneTimePlanCards
               title="Building mass"
               duration="3 month"
-              price="299"
+              price="499"
               bullets={[
                 "Customized Nutrition",
                 "Strength Training",
@@ -56,7 +56,7 @@ export function OneTimePlansSlider() {
             <OneTimePlanCards
               title="Ripped and shredded"
               duration="3 month"
-              price="299"
+              price="499"
               bullets={[
                 "High Intensity Workouts",
                 "Targeted Cardio Training",
@@ -70,7 +70,7 @@ export function OneTimePlansSlider() {
             <OneTimePlanCards
               title="Lean and mean"
               duration="3 month"
-              price="299"
+              price="499"
               bullets={[
                 "Balanced Caloric Intake",
                 "Strength Training",
@@ -84,7 +84,7 @@ export function OneTimePlansSlider() {
             <OneTimePlanCards
               title="Weight loss"
               duration="6 week"
-              price="299"
+              price="499"
               bullets={[
                 "Caloric Increases",
                 "Macronutrient Adjustments",

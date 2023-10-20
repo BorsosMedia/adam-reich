@@ -6,7 +6,7 @@ import Link from "next/link";
 import logo from "../../../../public/logo.png";
 import phone from "../../../../public/footer/phone.png";
 import mail from "../../../../public/footer/mail.png";
-import location from "../../../../public/footer/location.png";
+// import location from "../../../../public/footer/location.png";
 import tiktok from "../../../../public/footer/tiktok.png";
 import instagram from "../../../../public/footer/instagram.png";
 import x from "../../../../public/footer/x.png";
@@ -29,7 +29,7 @@ export function Footer() {
         <div
           className={`${styles.separator} w-full h-[0.2em] md:w-[0.2em] md:h-full rounded justify-self-center self-center my-10 md:my-0`}
         />
-        <section className="flex flex-col justify-stretch items-center md:items-start gap-5 md:col-span-5 justify-self-center self-end md:justify-self-start md:self-stretch">
+        <section className="flex flex-col justify-evenly items-center md:items-start gap-5 md:col-span-5 justify-self-center self-end md:justify-self-start md:self-stretch">
           <div className={contactInfo}>
             <Image src={phone} alt="phone icon" className={infoIcon} />
             <a href="tel:+15612214840" target="_blank">
@@ -42,12 +42,12 @@ export function Footer() {
               info@reinventugym.com
             </a>
           </div>
-          <div className={contactInfo}>
+          {/* <div className={contactInfo}>
             <Image src={location} alt="location icon" className={infoIcon} />
             <a href="https://maps.app.goo.gl/6fkzL9TqaV7PPewP9" target="_blank">
               170 NW 20th StBoca Raton, FL 33431
             </a>
-          </div>
+          </div> */}
           <div className="flex flex-row gap-10 mt-5 md:mt-10">
             <a href="https://www.tiktok.com/@adamreich_" target="_blank">
               <Image src={tiktok} alt="TikTok icon" className={socialIcon} />

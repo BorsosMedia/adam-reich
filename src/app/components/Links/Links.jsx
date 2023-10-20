@@ -25,10 +25,15 @@ export function Links() {
         </Link>
       </li>
       <li>
+        <Link href="/#testimonials" className={hover}>
+          Testimonials
+        </Link>
+      </li>
+      {/* <li>
         <Link href="/#reviews" className={hover}>
           Clients' Reviews
         </Link>
-      </li>
+      </li> */}
     </>
   );
 }

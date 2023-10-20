@@ -97,34 +97,34 @@ export function CoachingPlans() {
         {plan === "monthly" && (
           <CoachingPlanCards
             title={plan}
-            price="399"
+            price="249"
             to="https://coaching.rnvntucoaching.com/ftc-mp"
           />
         )}
         {plan === "3-month" && (
           <CoachingPlanCards
             title="3 month"
-            price="1077.3"
+            price="672.3"
             discount="10% off"
-            before="1197"
+            before="747"
             to="https://coaching.rnvntucoaching.com/ftc-3mp"
           />
         )}
         {plan === "6-month" && (
           <CoachingPlanCards
             title="6 month"
-            price="2034.9"
+            price="1269.9"
             discount="15% off"
-            before="2394"
+            before="1494"
             to="https://coaching.rnvntucoaching.com/ftc-6mp"
           />
         )}
         {plan === "annual" && (
           <CoachingPlanCards
             title={plan}
-            price="3830.4"
+            price="2390.4"
             discount="20% off"
-            before="4788"
+            before="2988"
             to="https://coaching.rnvntucoaching.com/ftc-ap"
           />
         )}
