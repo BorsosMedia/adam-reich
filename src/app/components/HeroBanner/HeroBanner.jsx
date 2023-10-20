@@ -10,8 +10,7 @@ export function HeroBanner() {
         <h1 className="lg:col-span-3 place-self-center font-Organetto text-h5 text-center leading-[101.9%]">
           <div className={styles.gradientText}>
             <span className="lg:whitespace-nowrap">
-              it is not just{" "}
-              <span className="whitespace-nowrap">working out</span>,
+              it is not just coaching,
             </span>
             <br />
             <span className="text-[1.2em]">
