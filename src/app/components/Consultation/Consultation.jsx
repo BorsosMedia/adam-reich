@@ -7,7 +7,7 @@ import styles from "./Consultation.module.css";
 export function Consultation() {
   return (
     <article
-      className={`${styles.background} text-white flex flex-col items-center justify-center text-center text-[0.8em] pt-8 pb-24 px-[10vw] md:px-0`}
+      className={`${styles.background} text-white flex flex-col items-center justify-center text-center text-[0.8em] pt-8 pb-24 w-full px-[10vw] md:px-0`}
     >
       <h3 className="text-pink font-Organetto">
         GET A FREE 15 MINUTE CONSULTATION CALL

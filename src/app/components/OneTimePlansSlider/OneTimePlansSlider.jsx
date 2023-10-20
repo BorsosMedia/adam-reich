@@ -18,8 +18,8 @@ export function OneTimePlansSlider() {
   };
 
   useEffect(() => {
-    new Glide(".glide", {
-      type: "slider",
+    new Glide("#glide1", {
+      type: "carousel",
       autoplay: 5000,
       hoverpause: false,
       swipeThreshold: 80,
@@ -28,6 +28,7 @@ export function OneTimePlansSlider() {
       rewind: true,
       perSwipe: 1,
       perTouch: 1,
+      perView: 1,
     }).mount({
       Controls,
       Swipe,
@@ -36,7 +37,7 @@ export function OneTimePlansSlider() {
   }, []);
 
   return (
-    <div className="glide glide--swipeable">
+    <div className="glide glide--swipeable" id="glide1">
       <div className="glide__track" data-glide-el="track">
         <ul className="glide__slides">
           <li className="glide__slide">
