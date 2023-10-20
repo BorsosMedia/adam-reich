@@ -12,8 +12,9 @@ import { OneTimePlanCards } from "../OneTimePlanCards/OneTimePlanCards";
 
 export function OneTimePlansSlider() {
   const arrowStyle = {
-    color: "#181818",
+    color: "#ffffff",
     fontWeight: "bold",
+    backgroundColor: "rgba(24,24,24,.5)",
   };
 
   useEffect(() => {

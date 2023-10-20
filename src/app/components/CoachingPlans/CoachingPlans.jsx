@@ -8,7 +8,7 @@ export function CoachingPlans() {
   const [plan, setPlan] = useState("monthly");
 
   const buttonStyling =
-    "cursor-pointer uppercase px-4 py-2 place-self-center text-white bg-blue rounded-lg";
+    "cursor-pointer uppercase px-4 py-2 place-self-center text-white bg-blue rounded-lg w-full";
   const selected = "bg-pink";
   const notSelected = "hover:bg-pink transition-all ease-in-out duration-300";
 
@@ -23,11 +23,11 @@ export function CoachingPlans() {
       >
         Coaching Plans
       </h2>
-      <p className="font-Mortend text-center my-10 font-bold px-full md:text-h6">
+      <p className="font-Mortend text-center my-10 font-bold px-[10vw] md:text-h6">
         Choose the plan that fits you best
       </p>
 
-      <fieldset className="font-Mortend grid grid-cols-3 place-self-center md:flex flex-row justify-center items-center font-bold text-[0.8em] gap-2 text-center">
+      <fieldset className="font-Mortend grid grid-cols-2 place-self-center md:flex flex-row justify-center items-center font-bold text-[0.8em] gap-5 text-center px-[15vw]">
         <input
           type="radio"
           value="monthly"
@@ -87,7 +87,7 @@ export function CoachingPlans() {
           htmlFor="annual"
           className={`${
             plan === "annual" ? selected : notSelected
-          } ${buttonStyling} col-span-3`}
+          } ${buttonStyling}`}
           onClick={handleChange}
         >
           Annual

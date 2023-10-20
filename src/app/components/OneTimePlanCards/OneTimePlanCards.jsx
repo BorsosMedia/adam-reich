@@ -15,7 +15,7 @@ export function OneTimePlanCards({ title, duration, price, bullets, to }) {
             {" plan"}
           </h3>
           <div className="flex flex-col justify-center items-center gap-5">
-            <ul className="list-disc flex flex-col items-center text-[0.8em]">
+            <ul className="list-disc flex flex-col items-center">
               {bullets?.length > 0 &&
                 bullets.map((bullet, index) => <li key={index}>{bullet}</li>)}
             </ul>
@@ -28,4 +28,4 @@ export function OneTimePlanCards({ title, duration, price, bullets, to }) {
   );
 }
 
-// bg-gradient-to-r from-blue to-pink
+// ul: text-[0.8em]

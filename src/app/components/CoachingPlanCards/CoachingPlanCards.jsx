@@ -60,5 +60,3 @@ export function CoachingPlanCards({ title, price, discount, before, to }) {
     </section>
   );
 }
-
-// bg-gradient-to-r from-blue to-pink
