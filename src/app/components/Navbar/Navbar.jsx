@@ -7,7 +7,7 @@ import { Hamburger } from "../Hamburger/Hamburger";
 
 export function Navbar() {
   return (
-    <header className="bg-[#000]/[0.6] py-half fixed md:absolute top-0 left-0 w-full text-white z-20 md:z-0">
+    <header className="bg-[#000]/[0.6] py-half fixed md:absolute top-0 left-0 w-full text-white z-20 md:z-0 px-[10vw]">
       <nav>
         <ul className="hidden md:flex flex-row items-center justify-evenly">
           <Image

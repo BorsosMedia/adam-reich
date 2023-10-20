@@ -35,14 +35,14 @@ export function Footer() {
             <a href="tel:+15612214840" target="_blank">
               (561) 221-4840
             </a>
-          </div> */}
+          </div>
           <div className={contactInfo}>
             <Image src={mail} alt="email icon" className={infoIcon} />
             <a href="mailto:info@reinventugym.com" target="_blank">
               info@reinventugym.com
             </a>
           </div>
-          {/* <div className={contactInfo}>
+          <div className={contactInfo}>
             <Image src={location} alt="location icon" className={infoIcon} />
             <a href="https://maps.app.goo.gl/6fkzL9TqaV7PPewP9" target="_blank">
               170 NW 20th StBoca Raton, FL 33431
