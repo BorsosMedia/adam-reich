@@ -17,13 +17,13 @@ export function Navbar() {
           />
           <Links />
         </ul>
-        <div className="grid grid-cols-3 md:hidden w-full h-full">
+        <div className="flex justify-between items-center md:hidden w-full h-full">
           <Image
             src={logo}
             alt="RNVNTU Coaching LLC Logo"
-            className="w-[5em] h-auto col-start-2 place-self-center"
+            className="w-[5em] h-auto"
           />
-          <ul className="justify-self-end self-center">
+          <ul>
             <Hamburger />
           </ul>
         </div>

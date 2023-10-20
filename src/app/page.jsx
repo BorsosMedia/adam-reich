@@ -1,15 +1,16 @@
 "use client";
 
-import { InstagramWidget } from "./components/InstagramWidget/InstagramWidget";
 import { HeroBanner } from "./components/HeroBanner/HeroBanner";
 import { CoachingPlans } from "./components/CoachingPlans/CoachingPlans";
 import { OneTimePlans } from "./components/OneTimePlans/OneTimePlans";
+import { Bloodwork } from "./components/Bloodwork/Bloodwork";
+import { InquirySection } from "./components/InquirySection/InquirySection";
+import { Consultation } from "./components/Consultation/Consultation";
 import { AboutMe } from "./components/AboutMe/AboutMe";
 // import { ClientsReviews } from "./components/ClientsReviews/ClientsReviews";
 import { Testimonials } from "./components/Testimonials/Testimonials";
 import { DiscordSection } from "./components/DiscordSection/DiscordSection";
-import { Consultation } from "./components/Consultation/Consultation";
-import { InquirySection } from "./components/InquirySection/InquirySection";
+import { InstagramWidget } from "./components/InstagramWidget/InstagramWidget";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <HeroBanner />
       <CoachingPlans />
       <OneTimePlans />
+      <Bloodwork />
       <InquirySection />
       <Consultation />
       <AboutMe />

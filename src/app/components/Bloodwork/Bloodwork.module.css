@@ -1,0 +1,52 @@
+/* MOBILE BACKGROUNDS */
+@media only screen and (max-width: 800px) {
+  .bg {
+    background: url("../../../../public/blood-bg-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+  }
+
+  .card {
+    width: fit-content;
+    border-radius: 2rem;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255, 0.85);
+  }
+}
+
+/* BIGGER-THAN-MOBILE BACKGROUNDS */
+@media only screen and (min-width: 800px) {
+  .bg {
+    background: url("../../../../public/blood-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .card {
+    background-color: rgb(255, 255, 255, 0);
+  }
+}
+
+.separator {
+  width: 100vw;
+  height: 1rem;
+  background: linear-gradient(135deg, #dd4398, #00aeef);
+  background-size: 300%;
+  animation: gradient 10s ease infinite;
+  -webkit-animation: gradient 10s ease infinite;
+  -moz-animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
