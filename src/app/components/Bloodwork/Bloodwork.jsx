@@ -26,7 +26,10 @@ export function Bloodwork() {
             </span>
           </p>
           <p className="font-Mortend text-blue text-h2 font-bold">$199</p>
-          <GradientButton content="Purchase" />
+          <GradientButton
+            content="Purchase"
+            to="https://coaching.rnvntucoaching.com/bloodwork-pay"
+          />
         </div>
       </section>
     </article>
