@@ -27,5 +27,3 @@ export function OneTimePlanCards({ title, duration, price, bullets, to }) {
     </section>
   );
 }
-
-// ul: text-[0.8em]

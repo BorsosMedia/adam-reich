@@ -64,5 +64,3 @@ export function Footer() {
     </footer>
   );
 }
-
-// bg-gradient-to-l md:bg-gradient-to-b from-pink to-blue

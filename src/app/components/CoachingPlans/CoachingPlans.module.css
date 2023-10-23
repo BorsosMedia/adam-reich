@@ -19,39 +19,3 @@
     min-height: 12vw;
   }
 }
-
-/* .monthlyBg {
-  background: url("../../../../public/monthly.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  width: fit-content;
-  padding: 1rem;
-}
-
-.months3Bg {
-  background: url("../../../../public/3-months.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  width: fit-content;
-  padding: 1rem;
-}
-
-.months6Bg {
-  background: url("../../../../public/6-months.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  width: fit-content;
-  padding: 1rem;
-}
-
-.annualBg {
-  background: url("../../../../public/annual.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  width: fit-content;
-  padding: 1rem;
-} */
