@@ -1,43 +1,19 @@
-@media (max-width: 768px) {
-  .separator {
-    background: linear-gradient(to left, #dd4398, #00aeef);
-    background-size: 300%;
-    animation: gradient 10s ease infinite;
-    -webkit-animation: gradient 10s ease infinite;
-    -moz-animation: gradient 10s ease infinite;
-  }
-
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+.separator {
+  background: linear-gradient(to left, #dd4398, #00aeef);
+  background-size: 300%;
+  animation: gradient 10s ease infinite;
+  -webkit-animation: gradient 10s ease infinite;
+  -moz-animation: gradient 10s ease infinite;
 }
 
-@media (min-width: 768px) {
-  .separator {
-    background: linear-gradient(to bottom, #dd4398, #00aeef);
-    background-size: auto 300%;
-    animation: gradient 10s ease infinite;
-    -webkit-animation: gradient 10s ease infinite;
-    -moz-animation: gradient 10s ease infinite;
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
   }
-
-  @keyframes gradient {
-    0% {
-      background-position: 50% 0%;
-    }
-    50% {
-      background-position: 50% 100%;
-    }
-    100% {
-      background-position: 50% 0%;
-    }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
