@@ -45,10 +45,10 @@ export function DiscordSection() {
               Join our community to find more people in the same journey as you!
             </p>
             <p className="my-5">You'll be able to:</p>
-            <ul>
-              <li>-Share experiences</li>
-              <li>-Exchange information</li>
-              <li>-Get motivated</li>
+            <ul className="list-disc">
+              <li>Share experiences</li>
+              <li>Exchange information</li>
+              <li>Get motivated</li>
             </ul>
           </div>
           <div className="hidden md:block">
