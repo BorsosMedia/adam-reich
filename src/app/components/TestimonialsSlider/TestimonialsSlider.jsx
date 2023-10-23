@@ -201,7 +201,7 @@ export function TestimonialsSlider() {
           {">"}
         </button>
       </div>
-      <p className="text-pink text-center mt-5 md:mt-10">
+      <p className="text-pink text-center mt-5 md:mt-10 text-[0.8em]">
         Swipe to see more amazing transformations
       </p>
     </div>

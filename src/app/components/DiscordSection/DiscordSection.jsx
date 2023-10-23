@@ -18,7 +18,7 @@ export function DiscordSection() {
           alt="Discord Logo"
           className="h-auto w-[6rem]"
         />
-        <h2 className="font-Organetto my-5">
+        <h2 className="font-Organetto my-5 br:text-h5">
           Join my <span className="text-blue">discord server</span>
         </h2>
       </section>
@@ -28,18 +28,19 @@ export function DiscordSection() {
           alt="Adam's Picture"
           className="br:col-start-2 br:col-span-2 place-content-center px-[10vw] br:px-0"
         />
-        <section className="br:col-span-2 place-content-center text-center br:text-left">
+        <section className="br:col-span-3 place-content-center text-center br:text-left md:col-span-2">
           <div className="hidden md:block">
             <Image
               src={discordLogo}
               alt="Discord Logo"
               className="h-auto w-[8rem]"
             />
-            <h2 className="font-Organetto text-h5 my-5">
-              Join my <span className="text-blue">discord server</span>
+            <h2 className="font-Organetto text-h5 md:text-h4 my-5">
+              Join my <br />
+              <span className="text-blue">discord server</span>
             </h2>
           </div>
-          <div className="mb-10 px-[10vw] md:px-0">
+          <div className="mb-10 px-[10vw] md:px-0 text-[0.8em]">
             <p>
               Join our community to find more people in the same journey as you!
             </p>

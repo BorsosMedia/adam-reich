@@ -9,7 +9,7 @@ export function Consultation() {
     <article
       className={`${styles.background} text-white flex flex-col items-center justify-center text-center text-[0.8em] pt-8 pb-24 w-full px-[10vw] md:px-0`}
     >
-      <h3 className="text-pink font-Organetto">
+      <h3 className="text-pink font-Organetto md:text-h5">
         GET A FREE 15 MINUTE CONSULTATION CALL
       </h3>
       <p className="my-5 px-5">

@@ -12,7 +12,7 @@ export function Bloodwork() {
           <div
             className={`${styles.card} lg:col-span-3 text-center lg:text-left flex flex-col items-center lg:items-start justify-evenly gap-10`}
           >
-            <h2 className="font-Organetto text-h5">
+            <h2 className="font-Organetto text-h5 md:text-h4">
               Optimization
               <br />
               Through
