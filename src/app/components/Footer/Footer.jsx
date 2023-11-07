@@ -7,6 +7,7 @@ import logo from "../../../../public/logo.png";
 import tiktok from "../../../../public/footer/tiktok.png";
 import instagram from "../../../../public/footer/instagram.png";
 import x from "../../../../public/footer/x.png";
+import location from "../../../../public/footer/location.png";
 
 export function Footer() {
   const socialIcon =
@@ -39,6 +40,12 @@ export function Footer() {
               <Image src={x} alt="X icon" className={socialIcon} />
             </a>
           </div>
+        </section>
+        <section className="flex justify-center items-center gap-5 text-center mt-5">
+          <Image src={location} alt="location" className="w-[1em] h-auto" />
+          <a href="https://maps.app.goo.gl/GbMLMjC2oN1hWvHv7" target="_blank">
+            16042 Tuscany Estates Dr Delray Beach, FL 33446, USA
+          </a>
         </section>
       </article>
       <article className="text-center mt-10 md:mt-20">
