@@ -50,8 +50,8 @@ export function Footer() {
           Legal and Privacy Policy
         </Link>
         <p>
-          Copyright © 2023 - All Rights Reserved / Website Developed and
-          Designed by{" "}
+          Copyright © 2023 RNVNTU Coaching LLC - All Rights Reserved / Website
+          Developed and Designed by{" "}
           <a
             href="https://www.borsosmedia.com/"
             target="_blank"
