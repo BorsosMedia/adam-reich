@@ -1,5 +1,3 @@
-"use client";
-
 import { TestimonialsSlider } from "../TestimonialsSlider/TestimonialsSlider";
 
 export function Testimonials() {

@@ -1,5 +1,3 @@
-"use client";
-
 export function InquirySection() {
   return (
     <article>
@@ -24,7 +22,7 @@ export function InquirySection() {
         data-layout-iframe-id="inline-i01353nkiHr4c8lurB6b"
         data-form-id="i01353nkiHr4c8lurB6b"
         title="Inquiry Form"
-      ></iframe>
+      />
     </article>
   );
 }

@@ -1,5 +1,3 @@
-"use client";
-
 import styles from "./OneTimePlans.module.css";
 import { OneTimePlanCards } from "../OneTimePlanCards/OneTimePlanCards";
 import { OneTimePlansSlider } from "../OneTimePlansSlider/OneTimePlansSlider";

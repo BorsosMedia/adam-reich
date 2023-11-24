@@ -1,6 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-"use client";
-
 import styles from "./DiscordSection.module.css";
 import Image from "next/image";
 import discordLogo from "../../../../public/discord-icon.png";
@@ -44,7 +41,7 @@ export function DiscordSection() {
             <p>
               Join our community to find more people in the same journey as you!
             </p>
-            <p className="my-5">You'll be able to:</p>
+            <p className="my-5">You&apos;ll be able to:</p>
             <ul className="list-disc">
               <li>Share experiences</li>
               <li>Exchange information</li>

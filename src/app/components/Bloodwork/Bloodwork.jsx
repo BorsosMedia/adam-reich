@@ -1,5 +1,3 @@
-"use client";
-
 import styles from "./Bloodwork.module.css";
 import { GradientButton } from "../GradientButton/GradientButton";
 

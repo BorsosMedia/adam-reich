@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { Links } from "../Links/Links";
 import logo from "../../../../public/logo.png";

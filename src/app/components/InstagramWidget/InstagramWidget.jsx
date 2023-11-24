@@ -1,5 +1,3 @@
-"use client";
-
 export function InstagramWidget() {
   return (
     <article className="px-[10vw] py-[5vh]">

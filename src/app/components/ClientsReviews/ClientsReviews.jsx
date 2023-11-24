@@ -1,5 +1,3 @@
-"use client";
-
 export function ClientsReviews() {
   return (
     <article id="reviews" className="my-10">

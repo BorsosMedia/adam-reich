@@ -1,5 +1,3 @@
-"use client";
-
 import { HeroBanner } from "./components/HeroBanner/HeroBanner";
 import { CoachingPlans } from "./components/CoachingPlans/CoachingPlans";
 import { OneTimePlans } from "./components/OneTimePlans/OneTimePlans";

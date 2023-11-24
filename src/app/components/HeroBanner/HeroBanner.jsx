@@ -1,6 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-"use client";
-
 import styles from "./HeroBanner.module.css";
 
 export function HeroBanner() {

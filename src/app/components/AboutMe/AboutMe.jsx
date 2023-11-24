@@ -1,6 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-"use client";
-
 import Image from "next/image";
 import aboutAdam from "../../../../public/about-adam.png";
 
@@ -22,9 +19,9 @@ export function AboutMe() {
           className="md:hidden mt-5 max-w-[80vw]"
         />
         <p className="my-5 text-[0.8em]">
-          I'm the co-owner of ReinventU Gym. With 20+ years of bodybuilding
-          experience, I'm an expert at helping clients exceed their limits to
-          achieve their goals.
+          I&apos;m the co-owner of ReinventU Gym. With 20+ years of bodybuilding
+          experience, I&apos;m an expert at helping clients exceed their limits
+          to achieve their goals.
         </p>
         <p className="text-[0.8em]">
           I work with people of all fitness levels, from pros to beginners. I

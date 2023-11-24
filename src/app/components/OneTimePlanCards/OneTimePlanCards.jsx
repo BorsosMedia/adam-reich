@@ -1,5 +1,3 @@
-"use client";
-
 import styles from "./OneTimePlanCards.module.css";
 import { GradientButton } from "../GradientButton/GradientButton";
 
