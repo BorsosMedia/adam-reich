@@ -100,7 +100,7 @@ export function CoachingPlans() {
             price="174.30"
             discount="30% off"
             before="249"
-            to="https://coaching.rnvntucoaching.com/ftc-mp"
+            to="https://coaching.rnvntucoaching.com/ftc-mp-bf"
           />
         )}
         {plan === "3-month" && (
@@ -109,7 +109,7 @@ export function CoachingPlans() {
             price="470.61"
             discount="30% off"
             before="672.3"
-            to="https://coaching.rnvntucoaching.com/ftc-3mp"
+            to="https://coaching.rnvntucoaching.com/ftc-3mp-bf"
           />
         )}
         {plan === "6-month" && (
@@ -118,7 +118,7 @@ export function CoachingPlans() {
             price="888.93"
             discount="30% off"
             before="1269.9"
-            to="https://coaching.rnvntucoaching.com/ftc-6mp"
+            to="https://coaching.rnvntucoaching.com/ftc-6mp-bf"
           />
         )}
         {plan === "annual" && (
@@ -127,7 +127,7 @@ export function CoachingPlans() {
             price="1,673.28"
             discount="30% off"
             before="2390.4"
-            to="https://coaching.rnvntucoaching.com/ftc-ap"
+            to="https://coaching.rnvntucoaching.com/ftc-ap-bf"
           />
         )}
       </section>
