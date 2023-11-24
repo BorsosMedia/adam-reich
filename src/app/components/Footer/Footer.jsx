@@ -39,12 +39,12 @@ export function Footer() {
             </a>
           </div>
         </section>
-        <section className="flex justify-center items-center gap-5 text-center mt-5">
+        {/* <section className="flex justify-center items-center gap-5 text-center mt-5">
           <Image src={location} alt="location" className="w-[1em] h-auto" />
           <a href="https://maps.app.goo.gl/GbMLMjC2oN1hWvHv7" target="_blank">
             16042 Tuscany Estates Dr Delray Beach, FL 33446, USA
           </a>
-        </section>
+        </section> */}
       </article>
       <article className="text-center mt-10 md:mt-20">
         <Link
