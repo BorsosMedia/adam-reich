@@ -5,7 +5,7 @@ import logo from "../../../../public/logo.png";
 import tiktok from "../../../../public/footer/tiktok.png";
 import instagram from "../../../../public/footer/instagram.png";
 import x from "../../../../public/footer/x.png";
-import location from "../../../../public/footer/location.png";
+// import location from "../../../../public/footer/location.png";
 
 export function Footer() {
   const socialIcon =
