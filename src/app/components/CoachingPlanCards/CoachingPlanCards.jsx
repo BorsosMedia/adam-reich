@@ -3,15 +3,10 @@ import { GradientButton } from "../GradientButton/GradientButton";
 
 export function CoachingPlanCards({ title, price, discount, before, to }) {
   return (
-    <section className="flex flex-col md:flex-row justify-center items-center md:items-between gap-10 md:gap-20 mt-20">
+    <section className="flex flex-col md:flex-row justify-center items-center md:items-between gap-10 md:gap-20">
       <div
-        className={`${styles.cardBg} min-w-fit min-h-fit p-2 rounded-[2rem] relative`}
+        className={`${styles.cardBg} min-w-fit min-h-fit p-2 rounded-[2rem]`}
       >
-        <span className="font-Mortend font-bold absolute top-10 -left-14 md:top-[30px] lg:-left-[80px] rotate-[320deg]">
-          <span className={`${styles.discount} py-8 px-5 text-white`}>
-            Black Friday
-          </span>
-        </span>
         <div className="text-white bg-black rounded-[2rem] min-w-[340px] w-[34rem] md:w-[40rem] h-fit flex flex-col items-center justify-between gap-10 text-center p-[4rem]">
           <h3 className="font-Organetto leading-none text-[1.3em]">
             <span className="text-pink">{title}</span>
