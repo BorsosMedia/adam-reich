@@ -1,4 +1,5 @@
-import { Button } from "@nextui-org/react";
+"use client";
+
 import styles from "./ContestSection.module.css";
 import Link from "next/link";
 
