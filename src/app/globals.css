@@ -56,3 +56,13 @@ body {
   font-size: calc(1.5rem + 0.390625vw);
   overflow-x: hidden;
 }
+
+@layer utilities {
+  .popup {
+    @apply bg-popup bg-contain bg-center bg-no-repeat;
+  }
+
+  .contest-bg {
+    @apply bg-contestMobile bg-cover bg-no-repeat sm:bg-contest lg:bg-contain py-[5%];
+  }
+}

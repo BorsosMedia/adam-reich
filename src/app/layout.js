@@ -2,6 +2,7 @@ import "./globals.css";
 import "./burger.css";
 import { Footer } from "./components/Footer/Footer";
 import { Navbar } from "./components/Navbar/Navbar";
+import { NextUIProvider } from "@nextui-org/react";
 
 export const metadata = {
   title: "RNVNTU Coaching",
@@ -25,9 +26,11 @@ export default function RootLayout({ children }) {
         <script async src="https://link.msgsndr.com/js/form_embed.js"></script>
       </head>
       <body>
-        <Navbar />
-        {children}
-        <Footer />
+        <NextUIProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </NextUIProvider>
       </body>
     </html>
   );

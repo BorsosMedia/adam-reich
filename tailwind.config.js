@@ -1,3 +1,5 @@
+const { nextui } = require("@nextui-org/react");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -5,6 +7,7 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -36,7 +39,13 @@ module.exports = {
       screens: {
         br: "600px",
       },
+      backgroundImage: {
+        contest: "url('../../public/contest-bg.png')",
+        contestMobile: "url('../../public/contest-mobile-bg.png')",
+        popup: "url('../../public/popup.png')",
+      },
     },
   },
-  plugins: [require("tailwind-scrollbar")],
+  darkMode: "class",
+  plugins: [require("tailwind-scrollbar"), nextui()],
 };

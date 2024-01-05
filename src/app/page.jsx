@@ -9,11 +9,14 @@ import { AboutMe } from "./components/AboutMe/AboutMe";
 import { Testimonials } from "./components/Testimonials/Testimonials";
 import { DiscordSection } from "./components/DiscordSection/DiscordSection";
 import { InstagramWidget } from "./components/InstagramWidget/InstagramWidget";
+import NewYearSaleModal from "./components/NewYearSaleModal/NewYearSaleModal";
+import { ContestSection } from "./components/ContestSection/ContestSection";
 
 export default function Home() {
   return (
     <main className="w-full justify-center text-black">
       <HeroBanner />
+      <ContestSection />
       <CoachingPlans />
       <OneTimePlans />
       <Bloodwork />
@@ -24,6 +27,7 @@ export default function Home() {
       <Testimonials />
       <DiscordSection />
       <InstagramWidget />
+      <NewYearSaleModal />
     </main>
   );
 }

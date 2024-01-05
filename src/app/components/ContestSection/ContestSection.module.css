@@ -1,0 +1,51 @@
+/* MOBILE BACKGROUND */
+@media only screen and (max-width: 600px) {
+  .background {
+    background: url("../../../../public/discord-mobile-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    min-height: fit-content;
+  }
+}
+
+/* BIGGER-THAN-MOBILE BACKGROUNDS */
+@media only screen and (min-width: 600px) {
+  .background {
+    background: url("../../../../public/discord-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    min-height: fit-content;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .background {
+    background: url("../../../../public/discord-bg.svg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100vw;
+    min-height: 52vw;
+  }
+}
+
+.bg {
+  background: linear-gradient(135deg, #dd4398, #00aeef);
+  background-size: 300%;
+  animation: gradient 10s ease infinite;
+  -webkit-animation: gradient 10s ease infinite;
+  -moz-animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
